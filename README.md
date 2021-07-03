@@ -12,6 +12,9 @@ Clicking on the links themselves will provide an intro. So, let's get started:
 3. Next step is to insert the microSD onto the raspberry pi and start the setup. It is fairly easy to follow the onscreen intructions( setting up wifi, region, ssh, samba settings and maybe customize your interface).
 
 >Note: For rasberry pi 4, connect `HDMI` to port 1 only, otherwise the audio output will not be available.
+
+>Time not correct: Since raspberry pi depends on internet for time, using the Network Time Protocol, it may happen that the time is not fetched correctly. This may be due to inability to access the Time server. Therefore, if time is not updated correctly then add the Google NTP ip address `216.239.35.0` in NTP server settings under LibreElec settings.
+
 4. Now, if you scroll to the `add-ons` section, there are many addons already available, where `youtube` is on of them. Now, for the specialized ones..
 
 ## Netflix
